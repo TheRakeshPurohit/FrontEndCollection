@@ -80,6 +80,7 @@ Organized by topic and difficulty level, with detailed solutions and explanation
 [0019. Remove Nth Node From End of List](/Data%20Structure%20and%20Algorithms/LeetCode/0019.%20Remove%20Nth%20Node%20From%20End%20of%20List.md)  
 [0021. Merge Two Sorted Lists](/Data%20Structure%20and%20Algorithms/LeetCode/0021.%20Merge%20Two%20Sorted%20Lists.md)  
 [0024. Swap Nodes in Pairs](/Data%20Structure%20and%20Algorithms/LeetCode/0024.%20Swap%20Nodes%20in%20Pairs.md)  
+[0025. Reverse Nodes in K-Group.md](/Data%20Structure%20and%20Algorithms/LeetCode/0025.%20Reverse%20Nodes%20in%20k-Group.md)
 [0061. Rotate List](/Data%20Structure%20and%20Algorithms/LeetCode/0061.%20Rotate%20List.md)  
 [0083. Remove Duplicates from Sorted List](/Data%20Structure%20and%20Algorithms/LeetCode/0083.%20Remove%20Duplicates%20from%20Sorted%20List.md)  
 [0092. Reverse Linked List II](/Data%20Structure%20and%20Algorithms/LeetCode/0092.%20Reverse%20Linked%20List%20II.md)  
