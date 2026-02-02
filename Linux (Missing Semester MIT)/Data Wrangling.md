@@ -1,7 +1,5 @@
 # **Lecture 4: Data Wrangling** 
 
-# **Lecture 4: Data Wrangling**
-
 ### **Pipes & Filtering:**
 - `|` : Sends the output of the left command as input to the right command  
   e.g. `journalctl | grep sshd`
