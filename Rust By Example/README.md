@@ -1,23 +1,39 @@
-# 📚 Rust Notes
+# 📚 Rust By Example — Yueli's executable learning notes
 
-A clean, executable reference for everything I've learned about Rust.
-Each lesson is a single file under `src/bin/` that's **both** a runnable demo **and** my study notes.
+A Rust learning project where **each lesson lives in a single file** that is both
+runnable code AND heavily-commented study notes.
 
 ## How to use
 
 ```bash
-# Show the welcome screen + lesson index
-cargo run
-
 # Run any specific lesson
 cargo run --bin 001-variables
 cargo run --bin 004-functions
 
+# Run the scratchpad (src/main.rs — current exercise)
+cargo run
+
 # Quickly type-check everything (no run)
 cargo check --all-targets
 
-# Lint everything
+# Lint with clippy
 cargo clippy --all-targets
+```
+
+## Project layout
+
+```
+rust_by_example/
+├── Cargo.toml
+├── README.md            ← you are here
+└── src/
+    ├── main.rs          ← scratchpad for the lesson I'm currently working on
+    └── bin/             ← polished, annotated lesson notes (one file per lesson)
+        ├── 001-variables.rs
+        ├── 002-mutability.rs
+        ├── 003-data-types.rs
+        ├── 004-functions.rs
+        └── ...
 ```
 
 ## Curriculum (following The Rust Book)
@@ -41,7 +57,7 @@ Will be added as I work through each lesson.
 
 ## Conventions
 
-- Every file starts with `//!` crate-level doc comments explaining the topic.
+- Each lesson file starts with `//!` crate-level doc comments explaining the topic.
 - Section dividers use `// ----- N. Title -----`.
 - Each file has a working `fn main()` so it runs standalone.
 - File names use `NNN-topic.rs` (zero-padded so they sort naturally).
